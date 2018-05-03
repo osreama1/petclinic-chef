@@ -11,7 +11,7 @@
             			"8" : {
                 			"x86_64" : {
                     			"url" : "file:///root/jdk-8u172-linux-x64.tar.gz",
-                    			"checksum" : "62b215bdfb48bace523723cdbb2157c665e6a25429c73828a32f00e587301236"
+                    			"checksum" : "28a00b9400b6913563553e09e8024c286b506d8523334c93ddec6c9ec7e9d346"
                 			}
             			}	
           		},
