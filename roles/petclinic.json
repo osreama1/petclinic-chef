@@ -6,14 +6,20 @@
 	],
 "default_attributes":{
 		"java":{
-			"jdk_version": "8",
-			"install_flavor": "oracle",
-			"accept_license_agreement": "true",
-			"jce_enabled": "true",
-			"oracle": {
-				"accept_oracle_download_terms": "true"
-			}
-		}
+			"install_flavor" : "oracle",
+          		"jdk" : {
+            			"8" : {
+                			"x86_64" : {
+                    			"url" : "file:///root/jdk-8u172-linux-x64.tar.gz",
+                    			"checksum" : "62b215bdfb48bace523723cdbb2157c665e6a25429c73828a32f00e587301236"
+                			}
+            			}	
+          		},
+          		"jdk_version" : "8",
+          		"oracle" : {
+               			"accept_oracle_download_terms" : true
+          		}
+      		}
 	}
-
 }
+			
